@@ -1,0 +1,70 @@
+section{
+    margin-top: 30px;
+}
+.result img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.results{
+    width: 600px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px 20px;
+}
+.result{
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+.result,.dati{
+    display: flex;
+    align-items: center;
+}
+.dati{
+    width: 300px;
+}
+.name{
+    font-size: 12px;
+}
+.result .username{
+    font-weight: bold;
+    margin: 0px 20px;
+}
+.follow{
+    background-color:#2b3695;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    border: 1px solid white ;
+    border-radius:12px;
+    padding:8px 8px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+}
+.follow:hover,.followed:hover{
+  color:black;
+  background-color: #83CFE9;
+}
+.followed{
+    background-color:#fafafa;
+    cursor:pointer;
+    color:black;
+    font-size:15px;
+    border: 1px solid lightgray;
+    border-radius:12px;
+    padding:8px 8px;
+     transition: color 0.3s ease, background-color 0.3s ease;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerphoto{
+    background-image: url("img/searchpeople.jpg");
+    background-position: center;
+}
+.hidden{
+    display: none;
+}

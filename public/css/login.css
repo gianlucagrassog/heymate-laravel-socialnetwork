@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FAFAFA;
+    height: 100vh;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+input[type=text],input[type=password]{
+    border-radius: 5px;
+   border-width:1px;
+    border-color:#cccccc; 
+    border-style:solid;
+    background-color: #FAFAFA;
+    outline-color: #cccccc;
+    padding: 2px 4px;
+}
+input[type=file]{
+  font-family: 'Roboto', sans-serif;
+}
+
+main, #registrati ,#social{
+  width: 400px;
+  height: 540px;
+  border: 0.5px solid lightgrey;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+body #social{
+  background-image: url("social.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+form{
+  margin: 0px 35px ;
+}
+.inputs {
+  margin: 0.3em;
+  height: 35px;
+}
+.submit{
+  margin-top: 20px;
+}
+input[type=submit]{
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #2B3595;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 0px solid #006FE6;
+  cursor: pointer;
+  padding: 10px;
+}
+input[type=submit]:hover {
+ background-color: #4352E7;
+}
+.errore {
+  font-style: italic;
+  color: red;
+  text-align: right;
+  height: 12px;
+}
+.inputs label .error{
+    border:2px solid red;
+    background-color: #ffd6d6 ;
+}
+.hidden{
+  display: none;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ciao{
+  flex-direction: column;
+}
+#logo{
+  padding: 30px;
+}
+#logo img{
+  height: 70px;
+}
+#registrati{
+  margin-top: 20px;
+  padding: 15px 0px;
+}
+#registrati a{
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color:#2B3595;
+}

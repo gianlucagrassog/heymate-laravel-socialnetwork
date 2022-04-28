@@ -1,0 +1,87 @@
+section{
+    margin-top: 30px;
+}
+.headerphoto{
+    background-image: url("img/header2.jpg");
+    background-position: bottom;
+}
+#modal-view .box .goback{
+    width: 40px;
+    height: 40px;
+}
+#result-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+#result-view .album {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid lightgray;
+  }
+#result-view img {
+    max-width: 100%;
+    
+}
+#result-view span{
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: center;
+}
+#inputs{
+   display: flex;
+   align-items: center;
+ }
+ 
+ select {
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #2b3595;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  color: white;
+  padding: 10px;
+  padding-right: 38px;
+  border-radius: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  margin-right: 20px;
+}
+select:hover,
+select:focus {
+  color: black;
+  background-color: white;
+}
+#modal-view .box img{ 
+      margin-top: 10px;
+      width: 60vw;
+    }
+#modal-view .box{
+     justify-content: center;
+     padding: 80px;
+    }
+
+    @media (max-width : 600px){
+    #inputs{
+        flex-direction: column;
+    }
+    select,.textbox,.buttonstyle{
+    
+      margin: 10px 0px;
+      margin-left: 0px;
+    }
+  
+}
+
+    @media (max-width : 860px){
+    #result-view .album {
+
+      max-width: 44vw;
+    }
+  
+}
